@@ -45,17 +45,16 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <motion.h1
-              className="text-5xl md:text-7xl lg:text-8xl font-orbitron font-black mb-4"
+              className="text-5xl md:text-7xl lg:text-8xl font-orbitron font-black mb-4 gradient-text"
               animate={{
-                textShadow: [
-                  '0 0 20px rgba(57, 255, 20, 0.8)',
-                  '0 0 40px rgba(57, 255, 20, 1)',
-                  '0 0 20px rgba(57, 255, 20, 0.8)',
-                ]
+                backgroundPosition: ['0% 50%', '100% 50%', '0% 50%']
               }}
-              transition={{ duration: 2, repeat: Infinity }}
+              transition={{ duration: 5, repeat: Infinity }}
+              style={{
+                backgroundSize: '200% auto'
+              }}
             >
-              <span className="text-white">{CONFIG.hero.title1}</span>
+              {CONFIG.hero.title1}
             </motion.h1>
             
             <motion.h1
