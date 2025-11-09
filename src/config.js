@@ -36,12 +36,13 @@ export const CONFIG = {
 
   // Gallery Images
   gallery: [
+    "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=600&fit=crop",
     "https://images.unsplash.com/photo-1540497077202-7c8a5dee9f50b?w=800&h=600&fit=crop",
-    "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&h=600&fit=crop",
     "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&h=600&fit=crop",
     "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&h=600&fit=crop",
     "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=800&h=600&fit=crop",
-    "https://images.unsplash.com/photo-1577221084712-45b0445d2b00?w=800&h=600&fit=crop"
+    "https://images.unsplash.com/photo-1577221084712-45b0445d2b00?w=800&h=600&fit=crop",
+    "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=600&fit=crop"
   ],
 
   // Mission & Vision
@@ -279,7 +280,7 @@ export const CONFIG = {
       date: "13 Dec",
       title: "Latest Trends For Sweating In Style",
       excerpt: "Stay updated with the newest fitness gear, workout trends, and style tips that keep you looking great while training hard.",
-      image: "https://images.unsplash.com/photo-1540497077202-7c8a5dee9f50b?w=600&h=400&fit=crop",
+      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop",
       link: "#"
     },
     {
